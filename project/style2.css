@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top,
+    rgba(0,0,0,0.5)50%,
+    rgba(0,0,0,0.5)50%), url(1.jpg);
+    background-size: cover;
+    height: 185vh;
+}
+.title{
+    text-align: center;
+    padding-top: 10px;
+}
+.logo{
+    position: absolute;
+    float: left;
+    left:20px;
+    top:40px;
+}
+.login{
+    width:100px;
+    height:30px;
+    position: absolute;
+    float:left;
+    left: 1300px;
+    top:35px;
+}
+.btnn{
+    width: 60px;
+    height: 20px;
+    background: #f3522e;
+    border: none;
+    margin-top: 5px;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btnn a{
+    color:black;
+    font-weight: bold;
+}.top-container{
+    border: 5px;
+    text-justify: space-between;
+    display: flex;
+    justify-content: space-between;
+    text-shadow: 4px 4px 6px #000000;
+    position: absolute;
+    float: left;
+    top:100px;
+    margin-left:150px;
+}
+
+.top-container ul{
+    margin:center;
+    display:flex;
+    text-align: center;
+    align-items: middle;
+    list-style-type: none;
+}
+.top-container ul a{
+
+  text-decoration:none;
+  margin:0px 80px;
+  color:white;
+  font-family: 'Times New Roman';
+  font-size: 150%;
+
+}
+.top-container a {
+  color: black;
+  margin: 10px 10px;
+  padding:5px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.sub-menu{
+  display: none;
+  text-shadow: 2px 2px 4px #ecd187;
+}
+
+.top-container ul li:hover .sub-menu{
+    display: block;
+    position: fixed;
+    margin-top:5px;
+    margin-left: -15px;
+  }
+
+  .top-container ul li:hover .sub-menu ul{
+    display:block;
+    margin:0 15px;
+    padding-right: 0px 10px;
+  }
+  .top-container ul li:hover .sub-menu ul li{
+    width:5px 10px;
+    padding: 5px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 10px;
+    text-align:left;
+  }.top-container ul li .sub-menu ul li a {
+    color: black;
+ }.top-container ul li .sub-menu ul li a:hover {
+    background-color: rgb(255, 249, 249);
+    color: rgb(185, 62, 62);
+  }
+.booking{
+    width: 1450px;
+    height: 300px;
+    background: linear-gradient(to top,
+     rgba(142, 140, 140, 0.8)50%,
+     rgba(142, 142, 142, 0.8)50%);
+    position: absolute;
+    float: left;
+    top:300px;
+    left:20px;
+    border-radius: 10px;
+}
+form{
+    margin-left: 6%;
+    margin-top: 3%
+}
+.contect{
+    width: 1450px;
+    height:90px;
+    background-color: white;
+    position: absolute;
+    float: left;
+    top:1280px;
+    left:10px;
+    text-align: center;
+}
+.our{
+    text-align: center;
+    height: 40px;
+    color:white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.gallery{
+    position: absolute;
+    float: left;
+    top:550px;
+    left:100px;
+}
+.gallery .image-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gallery .image-container .image{
+    height:250px;
+    width: 350px;
+    overflow: hidden;
+    border:15px solid #fff;
+    box-shadow: 0 3px 5px rgba(0,0,0,.3);
+    margin: 20px;
+}
+
+.gallery .image-container .image img{
+    height: 100%;
+    width:100%;
+    object-fit: cover;
+}
+
+.gallery .image-container .image:hover img{
+    transform: scale(1.4);
+}
